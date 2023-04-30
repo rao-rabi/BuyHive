@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+
+.homenav-link:hover{
+    color: rgb(36, 125, 228) !important;
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+/* Product Certification  */
+
+.products-check::-webkit-scrollbar {
+  width: 5px;
+}
+.products-check::-webkit-scrollbar-track {
+  background: #01ac26;
+}
+.products-check::-webkit-scrollbar-thumb {
+  background: #cfcece;
+}
+.products-check::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+/* buy */
+
+.order-info {
+  background: url(Assets/asset\ 13.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* products card */
+
+.card-product {
+  display: flex;
+  align-items: center;
+  height: 60vh !important;
+}
+.card-product:hover {
+  box-shadow: 0px 0px 7px grey;
+  padding: 5px;
+}
+.card-product:hover .btn-card {
+  display: block !important;
+}
+.card-product .card-img-top {
+  width: 30vh;
+  height: 30vh;
+}
+.btn-card {
+  display: none !important;
+}
